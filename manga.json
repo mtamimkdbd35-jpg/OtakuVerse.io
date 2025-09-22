@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Naruto",
+    "image": "https://example.com/naruto.jpg",
+    "author": "Masashi Kishimoto",
+    "link": "naruto.html"
+  },
+  {
+    "title": "One Piece",
+    "image": "https://example.com/onepiece.jpg",
+    "author": "Eiichiro Oda",
+    "link": "onepiece.html"
+  },
+  {
+    "title": "Attack on Titan",
+    "image": "https://example.com/attackontitan.jpg",
+    "author": "Hajime Isayama",
+    "link": "attackontitan.html"
+  }
+]
