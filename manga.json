@@ -1,7 +1,7 @@
 [
   {
     "title": "Naruto",
-    "image": "<a href="https://ibb.co.com/bjXHDgYX
+    "image": "https://ibb.co/bjXHDgYX",  // Correct image URL without <a> tag
     "author": "Masashi Kishimoto",
     "link": "naruto.html"
   },
