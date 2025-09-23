@@ -1,34 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>OtakuVerse - Manga Library</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OtakuVerse - Manga Library</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body id="body">
-  <header>
-    <div class="logo">
-      <a href="index.html">OtakuVerse</a>
-    </div>
-    <nav>
-      <button id="search-btn">Search</button>
-      <button id="follow-btn">Follow Manga</button>
-      <button id="profile-btn">Profile</button>
-      <button id="settings-btn">Settings</button>
-      <button id="theme-btn">🌙</button> <!-- Dark Mode Toggle -->
-    </nav>
-  </header>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <a href="#">OtakuVerse</a>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search manga...">
+        </div>
+    </header>
+    
+    <!-- Main Content Section -->
+    <main>
+        <!-- Reading History -->
+        <section class="reading-history">
+            <h2>Reading History</h2>
+            <div class="manga-card">
+                <!-- Display Manga Cards Here -->
+            </div>
+        </section>
 
-  <h1>Welcome to OtakuVerse - Manga Library</h1>
-  <div id="manga-list" class="grid">
-    <!-- Manga list will be dynamically inserted here -->
-  </div>
+        <!-- Most Recent Popular -->
+        <section class="most-popular">
+            <h2>Most Recent Popular</h2>
+            <div class="manga-card">
+                <!-- Display Manga Cards Here -->
+            </div>
+        </section>
 
-  <footer>
-    <p>&copy; 2025 OtakuVerse | All Rights Reserved</p>
-  </footer>
+        <!-- Popular New Comics -->
+        <section class="new-comics">
+            <h2>Popular New Comics</h2>
+            <div class="manga-card">
+                <!-- Display Manga Cards Here -->
+            </div>
+        </section>
+        
+        <!-- Recently Added -->
+        <section class="recently-added">
+            <h2>Recently Added</h2>
+            <div class="manga-card">
+                <!-- Display Manga Cards Here -->
+            </div>
+        </section>
+    </main>
 
-  <script src="script.js"></script>
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 OtakuVerse | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
